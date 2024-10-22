@@ -1,0 +1,13 @@
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px; /* Adjusts space between images */
+}
+
+.image-container img {
+    max-width: 100%; /* Ensures images are responsive */
+    height: auto; /* Maintains aspect ratio */
+}
